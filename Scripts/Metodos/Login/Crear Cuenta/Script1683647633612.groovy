@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Web/Login/crear cuenta/btn_crearCuenta'))
 
 WebUI.delay(5)
 
-String Ms = WebUI.verifyTextPresent('Lo sentimos, no pudimos crear su cuenta. Inténtalo de nuevo. Si el problema continúa, comuníquese con Atención al cliente.', 
+String Ms = WebUI.verifyTextPresent('Lo sentimos, no pudimos crear su cuenta. Favor de inténtalo de nuevo. Si el pro blema continúa comuníquese con Atención al clientes', 
     false)
 
 if (Ms.equals('true')) {
